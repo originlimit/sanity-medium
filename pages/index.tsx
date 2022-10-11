@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
@@ -8,9 +9,7 @@ const Home: NextPage = () => {
         <title>Medium Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='flex'>
-        <h1 className='text-blue-500'>this is a test</h1>
-      </main>
+      <Header />
     </div>
   )
 }
