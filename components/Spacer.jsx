@@ -2,7 +2,7 @@ import React from 'react'
 
 const Spacer = () => {
   return (
-    <div className='w-full h-5'></div>
+    <div className='w-fit h-16 m-1'></div>
   )
 }
 
