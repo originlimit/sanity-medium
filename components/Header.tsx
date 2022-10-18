@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='fixed flex items-center justify-between w-screen z-99 top-0 bg-gray-50 backdrop-blur-md p-4'>
+    <header className='fixed flex items-center justify-between w-screen bg-gray-100/80 z-99 top-0 backdrop-blur-sm p-4'>
       <div>
         <Link href='/'>
           <img className='w-44 object-contain cursor-pointer' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Medium_%28website%29_logo.svg/798px-Medium_%28website%29_logo.svg.png' alt='MEDIUM' />
