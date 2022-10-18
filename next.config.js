@@ -3,4 +3,3 @@ module.exports = {
   reactStrictMode: true,
 }
 
-optimizeCSS: false
